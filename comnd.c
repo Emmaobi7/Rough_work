@@ -81,7 +81,6 @@ void command(char **parsed)
 	{
 		wait(NULL);
 	}
-	execve(parsed[0], parsed, NULL);
 	
 	return;
 }
